@@ -1,10 +1,12 @@
 ---
 order: 6
+icon: 
+  type: fxemoji:note
 ---
 
 # This is a note with at TOC
 
-This is the intro to the main page.
+This note has a linkable table of contents, generated automatically
 
 [toc]
 
