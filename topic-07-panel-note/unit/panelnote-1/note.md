@@ -38,6 +38,17 @@ suite("User API tests", () => {
 });
 ~~~
 
+
+```latex
+
+x=\frac{ -b\pm\sqrt{ b^2-4ac } } {2a}
+
+\sum_{i=1}^n i^3 = \left( \frac{n(g(n)+1)} 2 \right) ^2
+
+c = \pm\sqrt{a^2 + b^2}
+```
+
+
 # Exercises & Archives
 
 You can link to zipped archives:
