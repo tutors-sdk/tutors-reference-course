@@ -1,3 +1,3 @@
-# Media
+# Videos
 
-Videos presented in various contexts
+Video + Presentataions and labs with videos
