@@ -6,6 +6,11 @@ This is an example of a note. It can have images:
 
 Mathematical notation:
 
+$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$
+
+
 ~~~latex
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 ~~~
