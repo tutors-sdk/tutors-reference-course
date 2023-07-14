@@ -1,5 +1,6 @@
-
 Markdown Options
+
+Full range of markdown syntax examples
 
 # h1 Heading 8-)
 ## h2 Heading
