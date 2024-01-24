@@ -23,7 +23,7 @@ Tutors is a collection of open source components and services supporting the cre
 
 Tutors is developed in the open by an active and friendly community, based on a [simple set of values](https://tutors.dev/course/tutors-reference-manual#tutors-values).
 
-This repo is the Tutors Reference Course - and can be viewed [here](https://tutors.dev/course/tutors-reference-course).
+This repo is the Tutors Reference Course - and can be viewed [here](https://tutors.dev/course/reference-course).
 
 
 # Tutors Repos
