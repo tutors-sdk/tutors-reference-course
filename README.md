@@ -32,3 +32,7 @@ This repo is the Tutors Reference Course - and can be viewed [here](https://tuto
 - [Tutors Apps](https://github.com/tutors-sdk/tutors-apps): A monorepo encapsulating the generators, tests + support tools and applications. It is written in TypeScript.
 - [Tutors Reference Manual](https://github.com/tutors-sdk/tutors-reference-manual): The manual is itself a tutors course, and is largely written in Markdown.
 - [Tutors Reference Course](https://github.com/tutors-sdk/tutors-reference-course): A Tutors course to included all tutors learning objects and structures.
+
+### License
+
+[![license](https://img.shields.io/badge/license-MIT-3A929B.svg)
