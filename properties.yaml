@@ -3,7 +3,7 @@ moodle: https://moodle.wit.ie
 youtube: https://www.youtube.com/playlist?list=PLMW4bgOfD3Dwi6FWirJ3AQtXZ-N_hV3Eo
 github: https://github.com/tutors-sdk/tutors-reference-course/blob/main
 
-auth: 0
+auth: 1
 labStepsAutoNumber: false
 
 ignorepin: 4321
