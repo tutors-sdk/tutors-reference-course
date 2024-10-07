@@ -16,10 +16,10 @@ companions:
     link: https://piazza.com/
     title: Piazza Q & A for this course
     icon:
-      icon: academicons:piazza
+      type: academicons:piazza
       color: info
 
 iconset:
   moodle:
-    icon: fa-solid:graduation-cap
+    type: fa-solid:graduation-cap
     color: warning
