@@ -17,9 +17,9 @@ companions:
     title: Piazza Q & A for this course
     icon:
       icon: academicons:piazza
-      colour: info
+      color: info
 
 iconset:
   moodle:
     icon: fa-solid:graduation-cap
-    colour: warning
+    color: warning
