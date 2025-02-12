@@ -6,6 +6,7 @@ parent: course/tutors-reference-manual
 
 auth: 0
 labStepsAutoNumber: false
+llm: 2
 
 ignorepin: 4321
 ignore:
