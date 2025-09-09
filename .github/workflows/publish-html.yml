@@ -30,9 +30,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: html
+          name: github-pages-${{ github.run_id }}
 
       - name: Deploy Site to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_id }}
 
 
