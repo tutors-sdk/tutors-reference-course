@@ -23,12 +23,6 @@ jobs:
       - name: Build Tutors Lite Site
         run: deno run -A jsr:@tutors/tutors-publish-html
 
-      - name: Ensure index.html exists from home.html
-        run: |
-          if [ -f html/home.html ]; then
-            cp html/home.html html/index.html
-          fi
-
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
