@@ -21,7 +21,7 @@ jobs:
           deno-version: v2.x
 
       - name: Build Tutors Lite Site
-        run: deno run -A jsr:@tutors/tutors-publish-html
+        run: deno run -A jsr:@tutors/tutors-lite
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
