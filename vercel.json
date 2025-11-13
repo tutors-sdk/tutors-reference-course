@@ -1,12 +1,6 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "build": {
-    "env": {
-      "DENO_VERSION": "latest"
-    },
-    "command": "deno run -A jsr:@tutors/tutors"
-  },
+  "version": 2,
+  "buildCommand": "npx -y deno-bin@latest run -A build.ts",
   "outputDirectory": "json",
-  "framework": null,
-  "installCommand": null
+  "framework": null
 }
