@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npx -y deno-bin@latest run -A build.ts",
+  "buildCommand": "npx -y deno-bin@latest run -A jsr:@tutors/tutors",
   "outputDirectory": "json",
   "framework": null
 }
