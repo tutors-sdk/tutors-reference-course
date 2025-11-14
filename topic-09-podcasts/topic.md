@@ -2,6 +2,6 @@
 icon:
   type: noto:owl
 ---
-# Porcasts
+# Podasts
 
 Some Podcast Examples
