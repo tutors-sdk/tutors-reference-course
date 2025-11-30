@@ -1,115 +1,39 @@
-Markdown Options
+# Note 1
 
-Full range of markdown syntax examples
+This is an example of a note. 
 
-# h1 Heading 8-)
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+It can have images:
 
+![](img/01.png)
 
-## Horizontal Rules
+A code block with syntax highlighting:
 
-___
+### user-api-test.js
 
----
+~~~javascript
+import { playtimeService } from "./playtime-service.js";
 
-***
+suite("User API tests", () => {
+  setup(async () => {
+  });
+  teardown(async () => {
+  });
 
+  test("create a user", async () => {
+  });
+});
+~~~
 
-## Typographic replacements
+### Mathematical notation:
 
-Enable typographer option to see result.
+$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
+This is an inline exampe: $c = \pm\sqrt{a^2 + b^2}$ with text before and after
 
 
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
+### Tables
 
 | Option | Description |
 | ------ | ----------- |
@@ -126,112 +50,53 @@ Right aligned columns
 | ext    | extension to be used for dest files. |
 
 
-## Links
+# Videos & Podcasts
 
-[link text](http://dev.nodeca.com)
+You can have either short videos, that can be bundled into the img folder, or you can have a youtube player.
 
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+## Video
 
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+An example of a short bundled video:
 
+::video[src="./img/video.mov"]::
 
-## Images
+The above is displayed using a convenient shortcut like this:
 
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+![](img/video-1.png)
 
-Like links, Images also have a footnote style syntax
+You can also associate a "poster" image, displayed before the image is played:
 
-![Alt text][id]
+::video[src="./img/video.mov" poster="img/01.png"]::
 
-With a reference later in the document defining the URL location:
+![](img/video-2.png)
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
+The video file and the poster must be in the img folder.
 
+## Embedded Youtube Player
 
-## Plugins
+You will need the id from Youtube, then include like this:
 
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
+![](img/video-3.png)
 
+This is how it will look:
 
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
+::video[src="O6Jh_1bxDs4"]::
 
 
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
+## Podcast
 
-- 19^th^
-- H~2~O
+A podcast hosted on spotify
 
+::podcast[src="4j8JuxWeYY9MTmUasBJKAV"]::
 
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
+This is the custom element:
 
-++Inserted text++
+![](img/podcast-1.png)
 
+You can identify this id by locating the podcast on Spotify and select “Share->Copy link to episode”. 
 
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
+### Links to Archives
 
-==Marked text==
+You can link to zipped archives:
 
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+- [Solutions](./archives/archive.zip)

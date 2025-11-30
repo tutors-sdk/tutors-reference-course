@@ -50,6 +50,51 @@ Right aligned columns
 | ext    | extension to be used for dest files. |
 
 
+# Videos & Podcasts
+
+You can have either short videos, that can be bundled into the img folder, or you can have a youtube player.
+
+## Video
+
+An example of a short bundled video:
+
+::video[src="./img/video.mov"]::
+
+The above is displayed using a convenient shortcut like this:
+
+![](img/video-1.png)
+
+You can also associate a "poster" image, displayed before the image is played:
+
+::video[src="./img/video.mov" poster="img/01.png"]::
+
+![](img/video-2.png)
+
+The video file and the poster must be in the img folder.
+
+## Embedded Youtube Player
+
+You will need the id from Youtube, then include like this:
+
+![](img/video-3.png)
+
+This is how it will look:
+
+::video[src="O6Jh_1bxDs4"]::
+
+
+## Podcast
+
+A podcast hosted on spotify
+
+::podcast[src="4j8JuxWeYY9MTmUasBJKAV"]::
+
+This is the custom element:
+
+![](img/podcast-1.png)
+
+You can identify this id by locating the podcast on Spotify and select “Share->Copy link to episode”. 
+
 ### Links to Archives
 
 You can link to zipped archives:
