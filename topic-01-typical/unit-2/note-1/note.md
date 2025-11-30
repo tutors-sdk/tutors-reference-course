@@ -85,7 +85,7 @@ This is how it will look:
 
 ## Podcast
 
-A podcast hosted on spotigy
+A podcast hosted on spotify
 
 ::podcast[src="4j8JuxWeYY9MTmUasBJKAV"]::
 
