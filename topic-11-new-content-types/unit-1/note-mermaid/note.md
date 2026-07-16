@@ -1,3 +1,7 @@
+---
+icon:
+  type: vscode-icons:file-type-pdf2
+---
 # Mermaid Diagrams
 
 Tutors supports [Mermaid.js](https://mermaid.js.org/) diagrams directly in markdown content. Use standard fenced code blocks with the `mermaid` language identifier.
