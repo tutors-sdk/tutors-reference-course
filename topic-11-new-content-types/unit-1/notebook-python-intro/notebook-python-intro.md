@@ -1,6 +1,6 @@
 ---
 icon:
-  type: vscode-icons:file-type-pdf2
+  type: devicon:python
 ---
 # Python Basics Notebook
 

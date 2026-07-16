@@ -1,6 +1,6 @@
 ---
 icon:
-  type: vscode-icons:file-type-pdf2
+  type: material-icon-theme:mermaid
 ---
 # Mermaid Diagrams
 

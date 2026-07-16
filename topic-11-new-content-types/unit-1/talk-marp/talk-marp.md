@@ -1,6 +1,6 @@
 ---
 icon:
-  type: vscode-icons:file-type-pdf2
+  type: selfhst:marp
 ---
 # Marp Slides
 
