@@ -2,6 +2,8 @@
 marp: true
 theme: default
 paginate: true
+icon:
+  type: selfhst:marp
 ---
 
 # Introduction to Tutors
