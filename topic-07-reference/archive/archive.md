@@ -1,3 +1,3 @@
-Resource 2
+Resource 3
 
 A link to a zipped archive 

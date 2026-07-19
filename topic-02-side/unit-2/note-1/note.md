@@ -1,4 +1,4 @@
-# Note 1
+# Note 2
 
 This is an example of a note. 
 
