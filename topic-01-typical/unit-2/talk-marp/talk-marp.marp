@@ -1,0 +1,118 @@
+---
+marp: true
+theme: default
+paginate: true
+icon:
+  type: selfhst:marp
+---
+
+# Introduction to Tutors
+
+### An Open Learning Web Toolkit
+
+---
+
+## What is Tutors?
+
+- Open source learning platform
+- Markdown-driven course authoring
+- Rich content types: labs, talks, notes, notebooks
+- Real-time student presence and analytics
+
+---
+
+## Course Structure
+
+A Tutors course is organised as:
+
+```
+course/
+  topic-01/
+    unit-1/
+      lab-intro/        # Step-by-step lab
+      talk-overview/    # PDF or Marp slides
+      note-summary/     # Markdown note
+      notebook-demo/    # Jupyter notebook
+```
+
+---
+
+## Content Types
+
+| Type | Format | Use Case |
+|------|--------|----------|
+| **Lab** | Markdown steps | Hands-on exercises |
+| **Talk** | PDF / Marp | Lecture slides |
+| **Note** | Markdown | Reference material |
+| **Notebook** | .ipynb | Interactive coding |
+
+---
+
+## Labs
+
+Labs are step-by-step markdown documents:
+
+- Each file becomes a navigable step
+- Supports code highlighting, images, and LaTeX
+- Arrow key navigation between steps
+- Auto-numbering of steps (optional)
+
+---
+
+## Talks with Marp
+
+This presentation is written in **Marp** format:
+
+- Simple markdown with `---` slide separators
+- Themes and pagination built-in
+- No PDF conversion needed
+- Lives alongside your course content
+
+---
+
+## Jupyter Notebooks
+
+Notebooks bring interactive coding to Tutors:
+
+- Python, R, Julia and more
+- Code cells with outputs
+- Click-to-reveal output pattern
+- Rendered from standard `.ipynb` files
+
+---
+
+## Mermaid Diagrams
+
+Diagrams rendered directly from markdown:
+
+```mermaid
+flowchart LR
+    Author -->|writes| Markdown
+    Markdown -->|generates| JSON
+    JSON -->|renders| Tutors
+```
+
+---
+
+## Getting Started
+
+1. Create a course folder with `course.md` and `properties.yaml`
+2. Add topics and units following naming conventions
+3. Run the Tutors generator CLI
+4. Deploy the generated `json/` folder
+
+---
+
+## Learn More
+
+- **Documentation**: [tutors.dev](https://tutors.dev)
+- **Source**: [github.com/tutors-sdk](https://github.com/tutors-sdk)
+- **Reference Course**: This course!
+
+---
+
+<!-- _class: lead -->
+
+# Thank You
+
+### Questions?
