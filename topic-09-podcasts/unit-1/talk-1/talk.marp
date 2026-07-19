@@ -1,0 +1,32 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 10
+
+### Podcasts in Tutors
+
+---
+
+## Podcast Support
+
+- Spotify player integration
+- Standalone podcast cards
+- Embedded players in notes and labs
+- Episode linking via Spotify ID
+
+---
+
+## Configuration
+
+- Folder name starts with `podcast`
+- Episode file contains Spotify ID
+- Format: `spotify=<episode-id>`
+
+---
+
+## Summary
+
+Podcasts bring audio content into Tutors, supporting both standalone players and embedded episodes within notes and labs.

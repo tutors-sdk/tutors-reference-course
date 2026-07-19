@@ -1,0 +1,31 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 4
+
+### Side Units and Resources
+
+---
+
+## Side Bars
+
+- Side bars frame supplementary content
+- Equivalent to a unit, but displayed in a sidebar
+- Folder name starts with `side-`
+
+---
+
+## Typical Usage
+
+- Labs associated with a topic
+- Additional reading material
+- Problem sheets and exercises
+
+---
+
+## Summary
+
+Side bars provide a flexible way to organise supporting resources alongside your main content.

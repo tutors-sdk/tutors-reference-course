@@ -1,3 +1,3 @@
-Lecture 3
+Lecture 3 (PDF)
 
 A short summary of the talk, no more than two sentences. Avoid bullet points or links for formatting reasons.

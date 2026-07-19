@@ -1,3 +1,3 @@
-Lecture 12
+Lecture 12 (Marp)
 
 This is a custom svg image

@@ -1,0 +1,31 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 12
+
+### Custom SVG Images
+
+---
+
+## Custom Images
+
+- Use your own SVG files as card images
+- SVG provides crisp rendering at any size
+- Name must match the markdown file
+
+---
+
+## When to Use SVG
+
+- Diagrams and logos
+- Icons not available in Iconify
+- Images that need to scale cleanly
+
+---
+
+## Summary
+
+Custom SVG images give you full control over card visuals when the Iconify collection does not have what you need.

@@ -1,0 +1,33 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 8
+
+### Course Properties
+
+---
+
+## properties.yaml
+
+- Course credits and attribution
+- Companion links (Slack, Moodle, YouTube)
+- Authentication settings
+- Calendar configuration
+
+---
+
+## Customisation
+
+- Custom icons from Iconify
+- Parent course linking
+- Topic show/hide with PIN
+- Portfolio mode
+
+---
+
+## Summary
+
+The properties.yaml file provides extensive customisation options for tailoring the course experience.

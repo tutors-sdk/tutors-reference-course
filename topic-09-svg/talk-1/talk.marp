@@ -1,0 +1,37 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 10
+
+### SVG Icons
+
+---
+
+## Iconify Integration
+
+- Icons from the Iconify collection
+- Specified via FrontMatter
+- Monochrome icons support custom colours
+- Replace image files on cards
+
+---
+
+## Usage
+
+Use FrontMatter in the resource markdown file:
+
+```yaml
+---
+icon:
+  type: vscode-icons:file-type-pdf2
+---
+```
+
+---
+
+## Summary
+
+SVG icons from Iconify provide a flexible alternative to image files for card presentation.

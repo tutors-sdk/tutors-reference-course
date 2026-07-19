@@ -1,0 +1,33 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 2
+
+### Exploring Tutors
+
+---
+
+## Course Navigation
+
+- Topics organise weekly content
+- Units group related resources
+- Side bars provide supplementary material
+- Breadcrumbs track your location
+
+---
+
+## Learning Resources
+
+- **Labs**: Step-by-step instructions
+- **Talks**: Presentations (PDF or Marp)
+- **Notes**: Reference pages in markdown
+- **Web Links**: External resources
+
+---
+
+## Summary
+
+Tutors provides an intuitive navigation model for discovering and engaging with learning content.

@@ -1,0 +1,32 @@
+---
+marp: true
+theme: default
+paginate: true
+---
+
+# Lecture 6
+
+### Media in Tutors
+
+---
+
+## Video Support
+
+- YouTube embedded videos
+- HEANet hosted videos
+- Video chapters with start/end times
+- Short bundled videos in labs
+
+---
+
+## Panel Videos
+
+- Full screen width display
+- Displayed directly on topic or unit
+- Referenced via `videoid` file
+
+---
+
+## Summary
+
+Tutors provides rich media integration, supporting videos from multiple providers alongside your course content.
