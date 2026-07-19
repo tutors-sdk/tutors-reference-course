@@ -2,6 +2,6 @@
 icon:
   type: devicon:python
 ---
-Lab-08 (jupyter)
+Lab-06 (jupyter)
 
 An interactive Jupyter Notebook demonstrating Python fundamentals.
