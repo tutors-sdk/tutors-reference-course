@@ -1,0 +1,9 @@
+  educators:
+    - edeleastar
+    - lgriffin
+  whitelist:
+    - student1
+    - student2
+  students:
+    - name: "John Smith"
+      id: student1
