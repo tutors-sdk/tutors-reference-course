@@ -1,0 +1,96 @@
+title: Semester 1
+year: 2026
+
+weeks:
+ 
+  - date: 2026-08-31
+    week: 0
+    topic: Induction
+    assessment: ~
+
+  - date: 2026-09-07
+    week: 1
+    topic: Variables and Data Types
+    assessment: ~
+
+  - date: 2026-09-14
+    week: 2
+    topic: Control Flow (if statements)
+    assessment: ~
+
+  - date: 2026-09-21
+    week: 3
+    topic: Functions
+    assessment: ~
+
+  - date: 2026-09-28
+    week: ~
+    topic: Reading Week
+    assessment:
+      name: Assessment 1 
+      due: 2026-10-04
+      percentage: 20
+      submission: Online (Moodle)
+
+  - date: 2026-10-05
+    week: 4
+    topic: Loops
+    assessment: ~
+
+  - date: 2026-10-12
+    week: 5
+    topic: Data Structures (arrays, strings, dictionaries)
+    assessment: ~
+
+  - date: 2026-10-19
+    week: 6
+    topic: Working with data structures and CRUD
+    assessment: ~
+
+  - date: 2026-10-25
+    week: ~
+    topic: Reading Week
+    assessment:
+      name: Assesment 2
+      due: 2026-11-01
+      percentage: 20
+      submission: Online (Moodle)
+
+  - date: 2026-11-02
+    week: 7
+    topic: Files, persistence (json)
+    assessment: ~
+ 
+  - date: 2026-11-09
+    week: 8
+    topic: Errors and debugging
+    assessment: ~
+
+  - date: 2026-11-16
+    week: 9
+    topic: Intro to classes
+    assessment: ~
+
+  - date: 2026-11-23
+    week: 10
+    topic: Object based CRUD
+    assessment: ~
+
+  - date: 2026-12-01
+    week: 11
+    topic: Reuse and Inheritance
+    assessment: ~
+
+  - date: 2026-12-08
+    week: 12
+    topic: Testing
+    assessment: ~
+ 
+  - date: 2026-12-15
+    week: ~
+    topic: Reading-3 
+    assessment:
+      name: End of Semester Assignment
+      due: 2025-12-19
+      percentage: 60
+      submission: Moodle with possible interview
