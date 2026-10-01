@@ -11,7 +11,6 @@ gives the learning object its type.
 
 ```quiz
 title: JavaScript Fundamentals
-time_limit: 30
 ---
 question: Which keyword declares a block-scoped variable that cannot be reassigned?
 type: multiple-choice
