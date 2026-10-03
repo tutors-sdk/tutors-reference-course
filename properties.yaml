@@ -13,6 +13,13 @@ ignorepin: 4321
 ignore:
   - topic-10-hidden
 
+# Read by `tutors-scorm`, which packages this course as a SCORM zip for upload to an LMS.
+# version: 1.2 | 2004 | both. The identifier is what the LMS files the course under, so it
+# should stay stable across republishes.
+scorm:
+  version: both
+  identifier: TUTORS-REFERENCE-COURSE
+
 companions:
   piazza:
     link: https://piazza.com/
